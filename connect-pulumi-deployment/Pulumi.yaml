@@ -1,0 +1,6 @@
+name: connect-pulumi-deployment
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: AWS Connect as deployed by Pulumi to compare and contrast

@@ -1,0 +1,13 @@
+encryptionsalt: v1:2EWhAhbfXJI=:v1:DYLQqoKzpjG/0yPm:qhwHjeEHD0H1N9mFbUkh7JqsuGEoYw==
+config:
+  aws:defaultTags:
+    tags:
+      DeployedBy: Pulumi
+      Tag1: Value1
+  aws:ignoreTags:
+    keyPrefixes:
+      - AutoTag_
+  aws:profile: profile
+  aws:region: ap-southeast-2
+  connect-pulumi-deployment:environment: poc
+  connect-pulumi-deployment:namePrefix: my-prefix
